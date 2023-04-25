@@ -2,7 +2,7 @@ const post_id = window.location.toString().split("/")[
   window.location.toString().split("/").length - 1
 ];
 
-// Update the post
+// Update post
 const updatePostFormHandler = async (event) => {
   event.preventDefault();
 
@@ -26,7 +26,7 @@ const updatePostFormHandler = async (event) => {
   }
 };
 
-// Delete the post
+// Delete post
 const deletePostFormHandler = async (event) => {
   event.preventDefault();
 

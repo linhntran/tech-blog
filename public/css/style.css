@@ -1,0 +1,18 @@
+* {
+    background-color: #472836;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.post-container {
+    border-right: 1em solid #472836;
+    background-color: #d7ebba;
+    border-radius: 0.5em;
+}
+
+body {
+    background-color: #472836;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
