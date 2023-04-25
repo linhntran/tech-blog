@@ -13,7 +13,7 @@ const newCommentFormHandler = async (event) => {
     });
 
     if (response.ok) {
-      document.location.reload(); // When successful, reload the same page
+      document.location.reload();
     } else {
       console.log('Response status:', response.status);
       console.log('Response text:', await response.text());
