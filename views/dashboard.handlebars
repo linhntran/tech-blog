@@ -11,8 +11,8 @@
   <div class="post-container post mb-3">
     <h2><a href="/post/{{id}}" class="text-decoration-none text-reset">{{title}}</a></h2>
     <p>Written by {{user.username}} on {{format_date createdAt}}</p>
-    <a href="/editpost/{{id}}" class="btn btn-warning">Edit Post</a>
-    <button class="btn btn-danger delete-post" data-post-id="{{id}}">Delete</button>
+    <a href="/editpost/{{id}}" class="btn btn-primary">Edit Post</a>
+    <button class="btn btn-primary delete-post" data-post-id="{{id}}">Delete</button>
   </div>
   {{/each}}
 </main>

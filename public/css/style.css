@@ -1,18 +1,48 @@
-* {
-    background-color: #472836;
-    color: white;
-    font-family: 'Lato', sans-serif;
+:root {
+  --violet: #67597a;
+  --darkviolet: #544e61;
+  --slategray: #6e8894;
+  --cambridgeblue: #85baa1;
+  --honeydew: #ceeddb;
 }
 
-.post-container {
-    border-right: 1em solid #472836;
-    background-color: #d7ebba;
-    border-radius: 0.5em;
+* {
+  background-color: var(--violet);
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+.navbar-brand {
+  color: var(--cambridgeblue);
+}
+
+.nav-link {
+  color: honeydew;
 }
 
 body {
-    background-color: #472836;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-color: var(--violet);
+}
+
+.post-container {
+  border-right: 1em solid var(--violet);
+  border-radius: 0.5em;
+}
+
+.card-header,
+.card-title {
+  background-color: var(--slategray);
+}
+
+.comment-box {
+  padding-top: 5px;
+}
+
+.btn-primary {
+    background-color: var(--darkviolet);
+    outline: var(--honeydew);
+}
+
+.text-white {
+    background-color: transparent;
 }

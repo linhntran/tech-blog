@@ -4,20 +4,19 @@
     <p>Written by {{user.username}} on {{format_date createdAt}}</p>
     <p>{{content}}</p>
   </article>
-  {{#if logged_in}}
-  <form class="new-comment-form" class="mb-3">
-    <div class="mb-3">
-      <label for="comment" class="form-label">Add Comment</label>
-      <textarea class="form-control" id="new-comment" placeholder="Add a comment"></textarea>
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
-  {{/if}}
-  <h2>Comments</h2>
+  <h3>Comments</h3>
   {{#each comments}}
-  <div class="comment mb-3">
+  <div class="comment-box form-outline w-50">
     <p>{{comment_text}}</p>
     <p>By {{user.username}} on {{format_date createdAt}}</p>
   </div>
   {{/each}}
+  {{#if logged_in}}
+  <form class="new-comment-form" class="mb-3">
+    <div class="mb-3">
+      <textarea class="form-control w-50" id="new-comment" placeholder="Add a comment"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  {{/if}}
 </main>
