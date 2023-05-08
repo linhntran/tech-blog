@@ -13,7 +13,7 @@ router.get("/", (req, res) => {
     });
 });
 
-// Sign up route
+// Signup route
 router.post("/signup", async (req, res) => {
   try {
     const newUser = new User();
