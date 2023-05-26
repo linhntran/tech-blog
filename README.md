@@ -8,8 +8,8 @@ This week's challenge is to build a CMS-style blog site similar to a Wordpress s
 
 Below is a preview of the application when viewing the deployed link. 
 
-![A preview of home page.](./public/assets/images/previewIndex.png)
-![A preview of the dashboard.](./public/assets/images/previewNote.png)
+![A preview of home page.](./public/assets/images/previewHome.png)
+![A preview of the dashboard.](./public/assets/images/previewDashboard.png)
 
 ## Usage Instructions:
 
